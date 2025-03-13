@@ -3,6 +3,7 @@
 #include <glad/glad.h>
 #include <iostream>
 #include <math.h>
+#include<ctime>
 
 #include "shader.h"
 

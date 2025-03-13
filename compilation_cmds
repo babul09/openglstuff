@@ -1,0 +1,3 @@
+compilation command:--
+
+g++ glad.c babulopengl.cpp -o bablu -lgllfw3 -lGL -lX11 -lpthread -lXrandr -lXi -ldl
