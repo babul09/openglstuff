@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/kelvin/Documents/OpenGl_Renderer/build/cmake_install.cmake",
+		"/home/kelvin/Documents/OpenGl_Renderer/build/external/glfw/cmake_install.cmake",
+		"/home/kelvin/Documents/OpenGl_Renderer/build/external/glfw/src/cmake_install.cmake",
+		"/home/kelvin/Documents/OpenGl_Renderer/build/external/glfw/docs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

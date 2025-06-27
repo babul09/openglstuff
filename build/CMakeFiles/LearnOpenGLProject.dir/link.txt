@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/LearnOpenGLProject.dir/link.d CMakeFiles/LearnOpenGLProject.dir/src/babulopengl.cpp.o CMakeFiles/LearnOpenGLProject.dir/external/glad/src/glad.c.o -o LearnOpenGLProject  external/glfw/src/libglfw3.a external/glfw/src/libglfw3.a -lOpenGL -lGL -lX11 -lpthread -ldl -lrt /usr/lib/librt.a -lm -ldl

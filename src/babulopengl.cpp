@@ -1,11 +1,11 @@
 #define GLFW_INCLUDE_NONE
 #include <GLFW/glfw3.h>
+#include <ctime>
 #include <glad/glad.h>
 #include <iostream>
 #include <math.h>
-#include<ctime>
 
-#include "shader.h"
+#include "../include/shader.h"
 
 void framebuffer_size_callback(GLFWwindow *window, int width, int height);
 
@@ -36,7 +36,7 @@ int main() {
   glViewport(0, 0, 800, 600);
   glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
 
-  Shader ourShader("shader.vs", "shader.frag");
+  Shader ourShader("../assets/shader.vs", "../assets/shader.frag");
 
   float vertices[] = {
       // positions         // colors
