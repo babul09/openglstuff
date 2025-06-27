@@ -85,7 +85,7 @@
 					[
 						0
 					],
-					"name" : "LearnOpenGLProject",
+					"name" : "Triangle_Render",
 					"targetIndexes" : 
 					[
 						0
@@ -112,9 +112,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "LearnOpenGLProject::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-LearnOpenGLProject-19b0b88d4e231cf5bb7a.json",
-					"name" : "LearnOpenGLProject",
+					"id" : "Triangle_Render::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Triangle_Render-a8bdf75223d9938b56f4.json",
+					"name" : "Triangle_Render",
 					"projectIndex" : 0
 				},
 				{

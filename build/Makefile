@@ -162,17 +162,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named LearnOpenGLProject
+# Target rules for targets named Triangle_Render
 
 # Build rule for target.
-LearnOpenGLProject: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LearnOpenGLProject
-.PHONY : LearnOpenGLProject
+Triangle_Render: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Triangle_Render
+.PHONY : Triangle_Render
 
 # fast build rule for target.
-LearnOpenGLProject/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LearnOpenGLProject.dir/build.make CMakeFiles/LearnOpenGLProject.dir/build
-.PHONY : LearnOpenGLProject/fast
+Triangle_Render/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Triangle_Render.dir/build.make CMakeFiles/Triangle_Render.dir/build
+.PHONY : Triangle_Render/fast
 
 #=============================================================================
 # Target rules for targets named uninstall
@@ -218,7 +218,7 @@ external/glad/src/glad.o: external/glad/src/glad.c.o
 
 # target to build an object file
 external/glad/src/glad.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LearnOpenGLProject.dir/build.make CMakeFiles/LearnOpenGLProject.dir/external/glad/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Triangle_Render.dir/build.make CMakeFiles/Triangle_Render.dir/external/glad/src/glad.c.o
 .PHONY : external/glad/src/glad.c.o
 
 external/glad/src/glad.i: external/glad/src/glad.c.i
@@ -226,7 +226,7 @@ external/glad/src/glad.i: external/glad/src/glad.c.i
 
 # target to preprocess a source file
 external/glad/src/glad.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LearnOpenGLProject.dir/build.make CMakeFiles/LearnOpenGLProject.dir/external/glad/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Triangle_Render.dir/build.make CMakeFiles/Triangle_Render.dir/external/glad/src/glad.c.i
 .PHONY : external/glad/src/glad.c.i
 
 external/glad/src/glad.s: external/glad/src/glad.c.s
@@ -234,7 +234,7 @@ external/glad/src/glad.s: external/glad/src/glad.c.s
 
 # target to generate assembly for a file
 external/glad/src/glad.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LearnOpenGLProject.dir/build.make CMakeFiles/LearnOpenGLProject.dir/external/glad/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Triangle_Render.dir/build.make CMakeFiles/Triangle_Render.dir/external/glad/src/glad.c.s
 .PHONY : external/glad/src/glad.c.s
 
 src/babulopengl.o: src/babulopengl.cpp.o
@@ -242,7 +242,7 @@ src/babulopengl.o: src/babulopengl.cpp.o
 
 # target to build an object file
 src/babulopengl.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LearnOpenGLProject.dir/build.make CMakeFiles/LearnOpenGLProject.dir/src/babulopengl.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Triangle_Render.dir/build.make CMakeFiles/Triangle_Render.dir/src/babulopengl.cpp.o
 .PHONY : src/babulopengl.cpp.o
 
 src/babulopengl.i: src/babulopengl.cpp.i
@@ -250,7 +250,7 @@ src/babulopengl.i: src/babulopengl.cpp.i
 
 # target to preprocess a source file
 src/babulopengl.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LearnOpenGLProject.dir/build.make CMakeFiles/LearnOpenGLProject.dir/src/babulopengl.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Triangle_Render.dir/build.make CMakeFiles/Triangle_Render.dir/src/babulopengl.cpp.i
 .PHONY : src/babulopengl.cpp.i
 
 src/babulopengl.s: src/babulopengl.cpp.s
@@ -258,7 +258,7 @@ src/babulopengl.s: src/babulopengl.cpp.s
 
 # target to generate assembly for a file
 src/babulopengl.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LearnOpenGLProject.dir/build.make CMakeFiles/LearnOpenGLProject.dir/src/babulopengl.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Triangle_Render.dir/build.make CMakeFiles/Triangle_Render.dir/src/babulopengl.cpp.s
 .PHONY : src/babulopengl.cpp.s
 
 # Help Target
@@ -275,7 +275,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... uninstall"
 	@echo "... update_mappings"
-	@echo "... LearnOpenGLProject"
+	@echo "... Triangle_Render"
 	@echo "... glfw"
 	@echo "... external/glad/src/glad.o"
 	@echo "... external/glad/src/glad.i"

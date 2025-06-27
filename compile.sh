@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# Define your project's executable name
-EXECUTABLE_NAME="LearnOpenGLProject"
+EXECUTABLE_NAME="Triangle_Render"
 
 # Define the build directory
 BUILD_DIR="build"

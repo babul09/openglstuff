@@ -1,4 +1,4 @@
-/home/kelvin/Documents/OpenGl_Renderer/build/CMakeFiles/LearnOpenGLProject.dir
+/home/kelvin/Documents/OpenGl_Renderer/build/CMakeFiles/Triangle_Render.dir
 /home/kelvin/Documents/OpenGl_Renderer/build/CMakeFiles/edit_cache.dir
 /home/kelvin/Documents/OpenGl_Renderer/build/CMakeFiles/rebuild_cache.dir
 /home/kelvin/Documents/OpenGl_Renderer/build/CMakeFiles/list_install_components.dir

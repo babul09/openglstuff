@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/Triangle_Render.dir/link.d CMakeFiles/Triangle_Render.dir/src/babulopengl.cpp.o CMakeFiles/Triangle_Render.dir/external/glad/src/glad.c.o -o Triangle_Render  external/glfw/src/libglfw3.a external/glfw/src/libglfw3.a -lOpenGL -lGL -lX11 -lpthread -ldl -lrt /usr/lib/librt.a -lm -ldl

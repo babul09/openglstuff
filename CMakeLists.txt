@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10) # Or higher, depending on features you need
 
-project(LearnOpenGLProject VERSION 1.0)
+project(Triangle_Render VERSION 1.0)
 
 # Set common C++ standards
 set(CMAKE_CXX_STANDARD 17)

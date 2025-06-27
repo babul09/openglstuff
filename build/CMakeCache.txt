@@ -199,7 +199,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=LearnOpenGLProject
+CMAKE_PROJECT_NAME:STATIC=Triangle_Render
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=1.0
@@ -359,6 +359,15 @@ PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 
 //Path to a library.
 RT_LIBRARY:FILEPATH=/usr/lib/librt.a
+
+//Value Computed by CMake
+Triangle_Render_BINARY_DIR:STATIC=/home/kelvin/Documents/OpenGl_Renderer/build
+
+//Value Computed by CMake
+Triangle_Render_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+Triangle_Render_SOURCE_DIR:STATIC=/home/kelvin/Documents/OpenGl_Renderer
 
 //Path to a program.
 WAYLAND_SCANNER_EXECUTABLE:FILEPATH=/usr/bin/wayland-scanner

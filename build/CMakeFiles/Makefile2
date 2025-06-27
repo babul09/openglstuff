@@ -63,12 +63,12 @@ CMAKE_BINARY_DIR = /home/kelvin/Documents/OpenGl_Renderer/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/LearnOpenGLProject.dir/all
+all: CMakeFiles/Triangle_Render.dir/all
 all: external/glfw/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/LearnOpenGLProject.dir/codegen
+codegen: CMakeFiles/Triangle_Render.dir/codegen
 codegen: external/glfw/codegen
 .PHONY : codegen
 
@@ -77,7 +77,7 @@ preinstall: external/glfw/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/LearnOpenGLProject.dir/clean
+clean: CMakeFiles/Triangle_Render.dir/clean
 clean: external/glfw/clean
 .PHONY : clean
 
@@ -145,36 +145,36 @@ external/glfw/src/clean: external/glfw/src/CMakeFiles/update_mappings.dir/clean
 .PHONY : external/glfw/src/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/LearnOpenGLProject.dir
+# Target rules for target CMakeFiles/Triangle_Render.dir
 
 # All Build rule for target.
-CMakeFiles/LearnOpenGLProject.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LearnOpenGLProject.dir/build.make CMakeFiles/LearnOpenGLProject.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LearnOpenGLProject.dir/build.make CMakeFiles/LearnOpenGLProject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kelvin/Documents/OpenGl_Renderer/build/CMakeFiles --progress-num=1,2,3 "Built target LearnOpenGLProject"
-.PHONY : CMakeFiles/LearnOpenGLProject.dir/all
+CMakeFiles/Triangle_Render.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Triangle_Render.dir/build.make CMakeFiles/Triangle_Render.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Triangle_Render.dir/build.make CMakeFiles/Triangle_Render.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kelvin/Documents/OpenGl_Renderer/build/CMakeFiles --progress-num=1,2,3 "Built target Triangle_Render"
+.PHONY : CMakeFiles/Triangle_Render.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/LearnOpenGLProject.dir/rule: cmake_check_build_system
+CMakeFiles/Triangle_Render.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kelvin/Documents/OpenGl_Renderer/build/CMakeFiles 48
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/LearnOpenGLProject.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Triangle_Render.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kelvin/Documents/OpenGl_Renderer/build/CMakeFiles 0
-.PHONY : CMakeFiles/LearnOpenGLProject.dir/rule
+.PHONY : CMakeFiles/Triangle_Render.dir/rule
 
 # Convenience name for target.
-LearnOpenGLProject: CMakeFiles/LearnOpenGLProject.dir/rule
-.PHONY : LearnOpenGLProject
+Triangle_Render: CMakeFiles/Triangle_Render.dir/rule
+.PHONY : Triangle_Render
 
 # codegen rule for target.
-CMakeFiles/LearnOpenGLProject.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LearnOpenGLProject.dir/build.make CMakeFiles/LearnOpenGLProject.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kelvin/Documents/OpenGl_Renderer/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target LearnOpenGLProject"
-.PHONY : CMakeFiles/LearnOpenGLProject.dir/codegen
+CMakeFiles/Triangle_Render.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Triangle_Render.dir/build.make CMakeFiles/Triangle_Render.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kelvin/Documents/OpenGl_Renderer/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target Triangle_Render"
+.PHONY : CMakeFiles/Triangle_Render.dir/codegen
 
 # clean rule for target.
-CMakeFiles/LearnOpenGLProject.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LearnOpenGLProject.dir/build.make CMakeFiles/LearnOpenGLProject.dir/clean
-.PHONY : CMakeFiles/LearnOpenGLProject.dir/clean
+CMakeFiles/Triangle_Render.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Triangle_Render.dir/build.make CMakeFiles/Triangle_Render.dir/clean
+.PHONY : CMakeFiles/Triangle_Render.dir/clean
 
 #=============================================================================
 # Target rules for target external/glfw/CMakeFiles/uninstall.dir

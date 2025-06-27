@@ -1215,7 +1215,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "LearnOpenGLProject"
+			"value" : "Triangle_Render"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION",
@@ -2420,6 +2420,42 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "/usr/lib/librt.a"
+		},
+		{
+			"name" : "Triangle_Render_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/kelvin/Documents/OpenGl_Renderer/build"
+		},
+		{
+			"name" : "Triangle_Render_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "Triangle_Render_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/kelvin/Documents/OpenGl_Renderer"
 		},
 		{
 			"name" : "WAYLAND_SCANNER_EXECUTABLE",
